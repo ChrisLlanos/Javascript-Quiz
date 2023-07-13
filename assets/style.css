@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.timer{
+    position: absolute;
+    right:0;
+}
+
+main{
+    height: 100vh;
+}
+
+.questionBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+}
